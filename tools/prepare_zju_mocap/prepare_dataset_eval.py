@@ -147,7 +147,7 @@ def main(argv):
 
             # load image
             img = np.array(load_image(img_path))
-            # todo 313和315修改一下!!
+            
             if subject in ['313', '315']:
                 smpl_idx = real_idx_frame + 1  # index begin with 1
             else:
