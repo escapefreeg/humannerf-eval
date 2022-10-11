@@ -5,10 +5,13 @@
 ## File structure
 - The below structure is just an example to illustrate clearly, not the real directory structure  
 - '.' represents the humannerf project root directory  
-![file_structure](file_structure.png)
+![file_structure](pictures/file_structure.png)
 ## Instructions
 1. Download and unzip the code
-2. Copy the code to the root directory of the HumanNeRF project 
+2. Copy following content to the root directory of the HumanNeRF project 
+    - core
+    - tools
+    - eval.py
 3. Run prepare_dataset_eval.py to process the dataset
     ```
     cd tools/prepare_zju_mocap
@@ -19,10 +22,10 @@
     ```python eval.py --cfg configs/human_nerf/zju_mocap/387/adventure.yaml```
 ## Results
 ### reproduce results
-![terminal_output](terminal_output.png)
-![tensorboard_output](tensorboard_output.png)
+![terminal_output](pictures/terminal_output.png)
+![tensorboard_output](pictures/tensorboard_output.png)
 ### paper results
-![paper_output](paper_output.png)
+![paper_output](pictures/paper_output.png)
 ## Precautions
 - The evaluation log is saved in "cfg.logdir/cfg.load_net/render_folder_name/log", which can be viewed with tensorboard
 - The code only tested object 387 of ZJU-MoCap dataset, and other objects have't been tested yet
