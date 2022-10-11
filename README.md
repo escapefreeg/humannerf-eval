@@ -5,33 +5,7 @@
 ## File structure
 - The below structure is just an example to illustrate clearly, not the real directory structure  
 - '.' represents the humannerf project root directory  
-.  
-├── eval.py  
-├── dataset  
-│   └── zju_mocap  
-│       ├── origin  
-│       │   └── CoreView_387  
-│       └── processed  
-│           └── 387  
-│           └── 387_eval  
-│               ├── cameras.pkl  
-│               ├── canonical_joints.pkl  
-│               ├── config.yaml  
-│               ├── images  
-│               ├── masks  
-│               └── mesh_infos.pkl  
-├── experiments  
-│   └── human_nerf  
-│       └── zju_mocap  
-│           └── p387  
-│               └── adventure  
-│                   └── latest  
-│                   │   ├── eval  
-│                   │   ├── freeview_128  
-│                   │   ├── movement  
-│                   │   └── tpose  
-│                   └── latest.tar  
-└── README.md  
+![file_structure](file_structure.png)
 ## Instructions
 1. Download and unzip the code
 2. Copy the code to the root directory of the HumanNeRF project 
